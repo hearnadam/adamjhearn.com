@@ -43,7 +43,7 @@ function() {
 
 This bookmarklet is great for reading with less eye fatigue at night. Generally I prefer black text on a white background, but sometimes this is quite useful. Written by a [Hacker News reader](https://news.ycombinator.com/item?id=25180600).
 
-![PDFInvert](/public/images/1/PDFInvert.png1/PDFInvert.png)
+![PDFInvert](/images/1/PDFInvert.png)
 
 <a href="javascript:(function(){viewer.style=&apos;filter: grayscale(1) invert(1) sepia(1) contrast(75%)&apos;})()" title="PDF Inversion Bookmark">PDF Invert</a>
 
