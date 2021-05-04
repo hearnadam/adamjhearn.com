@@ -15,7 +15,7 @@ I find myself frequently referencing Sci-Hub, even if the full text is available
 
 <a href="javascript:(function(){window.location=&quot;https://sci-hub.se/&quot;+window.location})()" title="Sci-Hub Bookmark">Sci-Hub</a>
 
-```javascript
+```js
 function() {
     window.location = "https://sci-hub.se/" + window.location;
 }
@@ -29,7 +29,7 @@ Ever find yourself stuck on an extremely boring or slow  video with no playback 
 
 <a href="javascript:(function(){Array.from(document.getElementsByTagName(&apos;video&apos;)).forEach(vid=&gt;vid.playbackRate=prompt(&quot;Enter a Playback Speed&quot;))})()" title="Playback Speed Bookmark">Playback Speed</a>
 
-```javascript
+```js
 function() {
     Array.from(
         document.getElementsByTagName('video'))
@@ -47,7 +47,7 @@ This bookmarklet is great for reading with less eye fatigue at night. Generally 
 
 <a href="javascript:(function(){viewer.style=&apos;filter: grayscale(1) invert(1) sepia(1) contrast(75%)&apos;})()" title="PDF Inversion Bookmark">PDF Invert</a>
 
-```javascript
+```js
 function() {
     viewer.style = 'filter: grayscale(1) invert(1) sepia(1) contrast(75%)';
 }
@@ -61,7 +61,7 @@ While online decoding works for most use cases, it is extremely convenient to be
 
 <a href="javascript:(function(){alert(atob(prompt(&quot;Input the Base64 text:&quot;)))})()" title="Base64 Decoder">B64 Decode</a>
 
-```javascript
+```js
 function() {
     alert(atob(prompt("Input the Base64 text:")));
 }
